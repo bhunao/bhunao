@@ -15,7 +15,7 @@ Developer in search of knowledge and new challanges. I discovered about programm
 
 ### Contact
 
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/bhunao/)  
+[<code><img widht="30" height="40" src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'></code>](https://www.linkedin.com/in/bhunao/)  
 
 ---
 
