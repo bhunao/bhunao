@@ -1,6 +1,6 @@
 ## Félix
 
-Developer in search of knowledge and new challanges. I discovered about programming when i was 14 years old, while making online servers of my favorite game. I started a computer science degree at _University Nove de Julho_ at the year of 2019 and today i study and work with Python, trying to follow a career path more specialized in Python.
+Developer in search of knowledge and new challanges. I discovered about programming when i was 14 years old, while making online servers of my favorite game. I started a computer science degree at _University Nove de Julho_ at the year of 2019 and today i study and work with Python.
 <hr>
 
 
