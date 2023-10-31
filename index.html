@@ -1,180 +1,194 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Bruno Félix</title>
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+		<link rel="stylesheet" href="style.css">
 	</head>
-	<body style="background-image: url(\"imgs/wp4751499.png\");">
-		<div>
-		</div>
+	<body class="bg-img">
 
-		<!-- navbar-->
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-			<div class="container px-5">
-				<a class="navbar-brand" href="#!">#</a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-						<li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
-						<li class="nav-item"><a class="nav-link" href="#!">.</a></li>
-					</ul>
+		<nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+			<div class="navbar-brand">
+				<h2 class="title is-3 m-2 has-text-light">Bruno Félix</h1>
+				<a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
+					<span aria-hidden="true"></span>
+					<span aria-hidden="true"></span>
+					<span aria-hidden="true"></span>
+				</a>
+			</div>
+
+			<div id="navbarMenu" class="navbar-menu">
+				<div class="navbar-end">
+					<a class="navbar-item is-active">
+						Inicio
+					</a>
+
+					<div class="navbar-item has-dropdown is-hoverable">
+						<a class="navbar-link">
+							Contato
+						</a>
+
+						<div class="navbar-dropdown">
+							<a href="https://www.linkedin.com/in/bhunao/" class="navbar-item">
+								LinkedIn
+							</a>
+							<a href="https://github.com/bhunao/" class="navbar-item">
+								Github
+							</a>
+						</div>
+					</div>
+
 				</div>
 			</div>
 		</nav>
 
-		<!-- Content-->
-		<div class="container px-4 px-lg-5">
-			<div class="">
-				
-			</div>
-			<!-- Heading -->
-			<div class="bg-secondary-subtle bg-gradient p-1 my-5 rounded-4">
-				<div class="row gx-4 gx-lg-5 align-items-center m-3" style="background-image: url(\"imgs/wp4751499.png\");">
+		<section class="hero is-small">
+			<div class="hero-body">
 
-					<div class="col-lg-3">
-						<img class="img-fluid rounded mb-4 mb-lg-0" src="imgs/pixel_me.jpeg" alt="..." />
+				<div class="columns has-background-light p-5">
+					<div class="column is-3">
+						<figure class="image is-128x128">
+							<img class="is-rounded" src="imgs/pixel_me.jpeg" alt="pyxel art of me">
+						</figure>
 					</div>
-
-					<div class="col-lg-7">
-						<h2 class="display-3">Bruno Félix</h2>
-						<h4>Desenvolvedor de Software</h4>
-						<p>
-						Na busca de conhecimento e novos desafios.
-						</p>
-					</div>
-
-				</div>
-				<!-- Call to Action-->
-				<div class="card text-white bg-secondary p-0 m-0 my-3 py-1 text-center">
-					<div class="card-body">
-						<h5 class="m-0">
-							<span class="badge bg-light text-dark rounded-0">Python</span>
-							<span class="badge bg-light text-dark rounded-0">Flask</span>
-							<span class="badge bg-light text-dark rounded-0">FastApi</span>
-							<span class="badge bg-light text-dark rounded-0">Odoo</span>
-							<span class="badge bg-light text-dark rounded-0">Pandas</span>
-							<span class="badge bg-light text-dark rounded-0">Nim</span>
-							<span class="badge bg-light text-dark rounded-0">HTML</span>
-							<span class="badge bg-light text-dark rounded-0">CSS</span>
-						</h5>
-					</div>
-				</div>
-			</div>
-
-			<!-- Content Row-->
-			<div class="row gx-4 gx-lg-5">
-
-				<div class="col-md-4 mb-5">
-					<div class="card h-100 rounded-0">
-						<div class="card-body">
-							<h4 class="card-title m-0 p-0">Evolution Simulation</h4>
-						</div>
-						<img src="code.jpg" class="card-img-top rounded-0" alt="...">
-						<div class="container">
-							<div class="row">
-								<div class="col badge text-bg-dark rounded-0">
-									Python
-								</div>
-								<div class="col badge text-bg-info rounded-0">
-									NEAT
-								</div>
-								<div class="col badge text-bg-warning rounded-0">
-									Pygame
-								</div>
-							</div>
-						</div>
-						<div class="card-body card-text">
-							<p>
-							Simulando evolução utilizando redes-neurais com Python, Pygame e Neat-Python. Com o proposito de mostrar a mudança de comportamento dos organismos dentro do eco-sistema criado.
-							</p>
-						</div>
-						<div class="card-footer">
-							<a class="btn btn-dark btn-sm" href="https://github.com/bhunao/pygame_evolution_simulation">Ver Mais</a>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-4 mb-5">
-					<div class="card h-100 rounded-0">
-						<div class="card-body">
-							<h4 class="card-title m-0 p-0">Covid-19 no Brasil</h4>
-						</div>
-						<img src="covid.jpg" class="card-img-top rounded-0" alt="...">
-						<div class="container">
-							<div class="row">
-								<div class="col badge text-bg-dark rounded-0">
-									Python
-								</div>
-								<div class="col badge text-bg-success rounded-0">
-									Tableau
-								</div>
-							</div>
-						</div>
-						<div class="card-body card-text">
-							<p>
-							Pet project sobre o covid-19 no mundo e no Brasil, aonde fiz parte do projeto criando um modelo para predição de casos e mortes de covid-19.
-							</p>
-						</div>
-						<div class="card-footer">
-							<a class="btn btn-dark btn-sm" href="https://github.com/bhunao/pygame_evolution_simulation">Ver Mais</a>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-4 mb-5">
-					<div class="card h-100 rounded-0">
-						<div class="card-body">
-							<h4 class="card-title m-0 p-0">MiniSpace</h4>
-						</div>
-						<img src="02.gif" class="card-img-top rounded-0" alt="...">
-						<div class="container">
-							<div class="row">
-								<div class="col badge text-bg-dark rounded-0">
-									Python
-								</div>
-								<div class="col badge text-bg-info rounded-0">
-									ECS
-								</div>
-								<div class="col badge text-bg-warning rounded-0">
-									Pyxel
-								</div>
-							</div>
-						</div>
-						<div class="card-body card-text">
-							<p>
-							Space shooter criado utilizando Python e Pyxel na arquitetura ECS(Entidade Componente Sistema).
-							</p>
-						</div>
-						<div class="card-footer">
-							<a class="btn btn-dark btn-sm" href="https://github.com/bhunao/pygame_evolution_simulation">Ver Mais</a>
-						</div>
+					<div class="column">
+						<p class="title"> Bruno Félix </p>
+						<p class="subtitle"> Software Developer </p>
+						<p> Na busca de conhecimento e novos desafios. </p>
 					</div>
 				</div>
 
 			</div>
+		</section>
+
+		<div class="box m-3 has-text-centered">
+			<h3 class="title is-3">Projetos</h3>
 		</div>
-		<!-- Footer-->
-		<footer class="py-4 bg-dark">
-			<div class="text-center justify-content-center justify-content-lg-between">
-				<a class="btn btn-outline-light btn-floating m-1" href="https://github.com/bhunao/" role="button" >
-					<i class="bi bi-github"></i>
-				</a>
 
-				<a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/bhunao/" role="button" >
-					<i class="bi bi-linkedin"></i>
-				</a>
+		<div class="columns m-1 is-multiline">
 
-				<a class="btn btn-outline-light btn-floating m-1" href="mail:bh.felix@hotmail.com" role="button" >
-					<i class="bi bi-envelope-at-fill"></i>
-				</a>
+			<div class="column is-12-mobile is-6-tablet is-4-desktop is-4-widescreen is-3-fullhd">
+				<div class="card p-2">
+					<div class="card-image">
+						<figure class="image is-4by3">
+							<img src="imgs/code.jpg" alt="code image">
+						</figure>
+					</div>
+					<div class="card-content">
+						<div class="media">
+							<div class="media-left">
+								<p class="title is-4">Notes</p>
+								<p class="subtitle is-4">/notes</p>
+								<span class="tag is-dark">Python</span>
+								<span class="tag is-light">SQLite</span>
+								<span class="tag is-warning">FastAPI</span>
+							</div>
+						</div>
+						<div class="content">
+							Projeto fullstack para criação, edição e busca de textos em markdown. Feito inicialmente para rodar localmente lendo e salvando os textos em arquivos .md no computador.
+						</div>
+					</div>
+					<footer class="card-footer">
+						<a href="https://github.com/bhunao/notes" class="card-footer-item">Ver mais</a>
+					</footer>
+				</div>
 			</div>
 
+			<div class="column is-12-mobile is-6-tablet is-4-desktop is-4-widescreen is-3-fullhd">
+				<div class="card p-2">
+					<div class="card-image">
+						<figure class="image is-4by3">
+							<img src="imgs/covid.jpg" alt="covid-19">
+						</figure>
+					</div>
+					<div class="card-content">
+						<div class="media">
+							<div class="media-left">
+								<p class="title is-4">Covid-19 no Brasil</p>
+								<p class="subtitle is-4">/Covid-19noBrasil-Situacao</p>
+								<span class="tag is-dark">Python</span>
+								<span class="tag is-success">Tableau</span>
+								<span class="tag is-link">MachineLearning</span>
+							</div>
+						</div>
+						<div class="content">
+							Pet project sobre o covid-19 no mundo e no Brasil, aonde fiz parte do projeto criando um modelo para predição de casos e mortes de covid-19.
+						</div>
+					</div>
+					<footer class="card-footer">
+						<a href="https://public.tableau.com/app/profile/marcelo.has/viz/Covid-19Brasil2_0/Covid-19noBrasil-Situacao" class="card-footer-item">Ver mais</a>
+					</footer>
+				</div>
+			</div>
+
+			<div class="column is-12-mobile is-6-tablet is-4-desktop is-4-widescreen is-3-fullhd">
+				<div class="card p-2">
+					<div class="card-image">
+						<figure class="image is-4by3">
+							<img src="imgs/02.gif" alt="spaceshooter game">
+						</figure>
+					</div>
+					<div class="card-content">
+						<div class="media">
+							<div class="media-left">
+								<p class="title is-4">MiniSpace</p>
+								<p class="subtitle is-4">/minispace_pyxel</p>
+								<span class="tag is-dark">Python</span>
+								<span class="tag is-warning">Pyxel</span>
+								<span class="tag is-danger">ECS</span>
+							</div>
+						</div>
+						<div class="content">
+							Simulando evolução utilizando redes-neurais com Python, Pygame e Neat-Python. Com o proposito de mostrar a mudança de comportamento dos organismos dentro do eco-sistema criado
+						</div>
+					</div>
+					<footer class="card-footer">
+						<a href="https://github.com/bhunao/minispace_pyxel" class="card-footer-item">Ver mais</a>
+						<a href="https://bhunao.github.io/minispace_pyxel/" class="card-footer-item">Jogar</a>
+					</footer>
+				</div>
+			</div>
+
+			<div class="column is-12-mobile is-6-tablet is-4-desktop is-4-widescreen is-3-fullhd">
+				<div class="card p-2">
+					<div class="card-image">
+						<figure class="image is-4by3">
+							<img src="imgs/code.jpg" alt="code">
+						</figure>
+					</div>
+					<div class="card-content">
+						<div class="media">
+							<div class="media-left">
+								<p class="title is-4">Evolution Simulation</p>
+								<p class="subtitle is-4">/pygame_evolution_simulation</p>
+								<span class="tag is-dark">Python</span>
+								<span class="tag is-primary">NEAT</span>
+								<span class="tag is-warning">Pygame</span>
+							</div>
+						</div>
+						<div class="content">
+							Simulando evolução utilizando redes-neurais com Python, Pygame e Neat-Python. Com o proposito de mostrar a mudança de comportamento dos organismos dentro do eco-sistema criado
+						</div>
+					</div>
+					<footer class="card-footer">
+						<a href="https://github.com/bhunao/pygame_evolution_simulation" class="card-footer-item">Ver mais</a>
+					</footer>
+				</div>
+			</div>
+
+		</div>
+
+		<footer class="footer">
+			<div class="content has-text-centered">
+				<p>
+				Feito com <strong><a href="https://bulma.io/">Bulma</a></strong> e hosteado no github.
+				</p>
+			</div>
 		</footer>
-		<!-- Bootstrap core JS-->
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
 	</body>
+	<script src="js_index.js">
+	</script>
 </html>

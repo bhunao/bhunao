@@ -1,0 +1,13 @@
+.bg-img { 
+	background-image: url(imgs/wp4751499.png) ;
+	background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+	background-color: #999;
+}
+
+.cardimage{
+	width: 10px;
+	height: 10px;
+}
