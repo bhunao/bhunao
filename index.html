@@ -1,216 +1,125 @@
-<!doctype html>
-<html lang="en" data-bs-theme="">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Bruno Félix</title>
-        <link href="./static/bootstrap.css" rel="stylesheet">
-        <link href="./static/style.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
-    </head>
-    <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bruno Henrique Félix - Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900 font-sans leading-normal tracking-normal">
 
-        <div class="myfont">
+  <!-- Header -->
+  <header class="bg-gray-800 text-white py-6">
+    <div class="container mx-auto px-4 flex justify-between items-center">
+      <h1 class="text-3xl font-bold">Bruno Henrique Félix</h1>
+      <nav>
+        <a href="#about" class="mx-2 hover:text-gray-400">About Me</a>
+        <a href="#experience" class="mx-2 hover:text-gray-400">Experience</a>
+        <a href="#projects" class="mx-2 hover:text-gray-400">Projects</a>
+      </nav>
+    </div>
+  </header>
 
-            <h1 class="text-center mt-5 display-1">
-                Bruno Félix
-            </h1>
+  <!-- About Section -->
+  <section id="about" class="py-12 bg-white">
+    <div class="container mx-auto px-4 text-center">
+        <img src="imgs/pixel_me.jpeg" alt="Bruno Henrique Félix" class="w-32 h-32 mx-auto rounded-full shadow-md mb-6">
+      <h2 class="text-2xl font-semibold text-gray-800">About Me</h2>
+      <p class="mt-4 text-gray-600 max-w-2xl mx-auto">
+        My name is Bruno Henrique Félix, a 28-year-old web developer based in Sao Paulo, Brazil. Passionate about creating efficient and elegant solutions in web development, I'm fluent in English and thrive in collaborative environments, utilizing diverse tools and frameworks to deliver high-quality results.
+      </p>
+    </div>
+  </section>
 
-            <h6 class="text-center mb-5 pb-5">
-                Software Developer in search of knowledge.
-            </h6>
-
-
-
-            <div class="row mb-5">
-                <div class="col-1 px-2">
-                    <img style="width:100px; height:350px;" src="https://wallpapercave.com/wp/wp6378350.jpg" class="d-block w-100" alt="...">
-                </div>
-
-                <div class="col text-center px-2 accordion-item border-0">
-                    <h2 class="accordion-header">
-                        <img style="width:300px; height:350px;" src="imgs/code.png" class="d-block w-100" alt="...">
-                        <hr>
-                        <a href="#readmeProjects">
-                            <button class="btn btn-lg border rounded-0">
-                                Projects
-                            </button>
-                        </a>
-                    </h2>
-                </div>
-
-                <div class="col text-center px-2 accordion-item border-0">
-                    <h2 class="accordion-header">
-                        <img style="width:300px; height:350px;" src="imgs/pixel_me.jpeg" class="d-block w-100" alt="...">
-                        <hr>
-                        <a href="#readmeMe">
-                            <button class="btn btn-lg border rounded-0">
-                            About Me
-                        </button>
-                        </a>
-                    </h2>
-                </div>
-
-                <div class="col text-center px-2 accordion-item border-0">
-                    <h2 class="accordion-header">
-                        <img style="width:300px; height:350px;" src="imgs/wp4751499.png" class="d-block w-100" alt="...">
-                        <hr>
-                        <a class="" href="#readmeExp">
-                            <button class="btn btn-lg border rounded-0">
-                            Experience
-                        </button>
-                        </a>
-                    </h2>
-                </div>
-
-                <div class="col-1 px-2">
-                    <img style="width:150px; height:350px;" src="https://images.pexels.com/photos/4723038/pexels-photo-4723038.jpeg" class="d-block w-100" alt="...">
-                </div>
-            </div>
-
-
-            <!-- MY README -->
-            <div class="container">
-                <small class="text-body-tertiary">/Documents/readme.md</small>
-                <hr>
-                <h2 id="readmeMe">About Me</h2>
-                <p>
-                My name is Bruno Henrique Félix, a 28-year-old web developer based in Sao Paulo-SP, Brazil. I am passionate about crafting efficient and elegant solutions in the realm of web development. Fluent in English, I thrive in collaborative environments and am adept at utilizing various tools and frameworks to deliver high-quality results. </p>
-                <hr>
-
-                <h2 id="readmeExp">Experience</h2>
-
-
-                <img src="imgs/python.svg" alt="Python Logo"  width="45" height="45">
-                <img src="imgs/html.svg" alt="HTML Logo"  width="45" height="45">
-                <img src="imgs/css-3.svg" alt="CSS Logo"  width="45" height="45">
-                <img src="imgs/js.svg" alt="Javascript Logo"  width="45" height="45">
-                <img src="imgs/sql-database.svg" alt="SQL Logo"  width="45" height="45">
-                <img src="imgs/nim.svg" alt="NIM Logo"  width="45" height="45">
-                <p class="pb-3">
-                <strong>Languages:</strong>
-                Python, HTML, CSS, Javascript, SQL, Nim.
-                </p>
-
-                <img src="imgs/fastapi.svg" alt="FastAPI Logo"  width="45" height="45">
-                <img src="imgs/flask.svg" alt="Flask Logo"  width="45" height="45">
-                <img src="imgs/numpy.svg" alt="Numpy Logo"  width="45" height="45">
-                <img src="imgs/odoo.svg" alt="Odoo Logo"  width="75" height="45">
-                <img src="imgs/pandas.svg" alt="Pandas Logo"  width="45" height="45">
-                <p class="pb-3">
-                <strong>Frameworks:</strong>
-                FastApi, Flask, Numpy, Odoo, Pandas, HTMX, Happyx.
-                </p>
-
-                <img src="imgs/docker.svg" alt="Sqlite Logo"  width="45" height="45">
-                <img src="imgs/git.svg" alt="Git Logo"  width="45" height="45">
-                <img src="imgs/linux.svg" alt="Git Logo"  width="45" height="45">
-                <img src="imgs/postgresql.svg" alt="Postgresql Logo"  width="45" height="45">
-                <img src="imgs/sqlite.svg" alt="Sqlite Logo"  width="45" height="45">
-                <p class="pb-3">
-                <strong>Tools:</strong>
-                Docker, Git, Linux, PostgreSQL, SQLite, Nifi
-                </p>
-
-                <p class="pb-3">
-                <strong>Others:</strong>
-                Fluent English, Tests, Scrum, Jira, Kanban.
-                </p>
-
-                <hr>
-
-                <h2 id="readmeProjects">Projects</h2>
-                <p>
-                <ul>
-                    <li>
-                        <a href="https://github.com/bhunao/notes" class="">
-                            <h3>Notes Project</h3>
-                        </a>
-                        <p>
-                        A full-stack project for creating, editing, and searching markdown texts. Initially designed to run locally, reading and saving texts as .md files on the computer.
-                        </p>
-                        <p>
-                        <strong>Technologies:</strong> Python, SQLite, FastAPI, HTMX
-                        </p>
-                    </li>
-
-                    <li>
-                        <a href="https://public.tableau.com/app/profile/marcelo.has/viz/Covid-19Brasil2_0/Covid-19noBrasil-Situacao" class="link">
-                            <h3>Covid-19 in Brazil</h3>
-                        </a>
-                        <p>
-                        A pet project focusing on Covid-19 worldwide and in Brazil, where I contributed by creating a model for predicting Covid-19 cases and deaths.
-                        </p>
-                        <p>
-                        <strong>Technologies:</strong> Python, Tableau, Machine Learning
-                        </p>
-                    </li>
-
-                    <li>
-                        <a href="https://github.com/bhunao/minispace_pyxel" class="link">
-                            <h3>
-                                MiniSpace
-                            </h3>
-                        </a>
-                        <p>
-                        Retro space game made using Pyxel an retro caming console with only 16 colors and utilizing the <strong>ECS</strong> ideia to deal with the processes inside the game.
-                        </p>
-                        <a class="" href="https://bhunao.github.io/minispace_pyxel/">
-                            <button class="btn btn-sm btn-light rounded-0 border">
-                                Play
-                            </button>
-                        </a>
-                        <p class="pt-3">
-                        <strong>Technologies:</strong> Python, Pyxel, ECS
-                        </p>
-                    </li>
-
-                    <li>
-                        <a href="https://github.com/bhunao/pygame_evolution_simulation" class="link">
-                            <h3>
-                                Evolution Simulation
-                            </h3>
-                        </a>
-                        <p>
-                        Simulating evolution using neural networks with Python, Pygame, and Neat-Python. The project aims to demonstrate the change in behavior of organisms within the created ecosystem.
-                        </p>
-                        <p>
-                        <strong>Technologies:</strong> Python, NEAT, Pygame
-                        </p>
-                    </li>
-                </ul>
-                </p>
-            </div>
-
+  <!-- Experience Section -->
+  <section id="experience" class="py-12 bg-gray-100">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-2xl font-semibold text-gray-800">Experience</h2>
+      <div class="mt-6 grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="bg-white p-4 rounded-lg shadow">
+          <p class="font-bold">Languages</p>
+          <p class="text-gray-600">Python, HTML, CSS, Javascript, SQL, Nim</p>
         </div>
+        <div class="bg-white p-4 rounded-lg shadow">
+          <p class="font-bold">Frameworks</p>
+          <p class="text-gray-600">FastAPI, Flask, Numpy, Odoo, Pandas, HTMX</p>
+        </div>
+        <div class="bg-white p-4 rounded-lg shadow">
+          <p class="font-bold">Tools</p>
+          <p class="text-gray-600">Docker, Git, Linux, PostgreSQL, SQLite, Nifi</p>
+        </div>
+        <div class="bg-white p-4 rounded-lg shadow">
+          <p class="font-bold">Others</p>
+          <p class="text-gray-600">Fluent English, Testing, Scrum, Jira, Kanban</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        <footer class="text-center text-lg-start border-top">
+  <!-- Projects Section -->
+  <section id="projects" class="py-12 bg-white">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-2xl font-semibold text-gray-800">Projects</h2>
+      <div class="mt-6 grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <!-- Notes Project -->
+        <div class="bg-gray-100 p-6 rounded-lg shadow">
+          <h3 class="font-bold text-lg">Notes Project</h3>
+          <p class="text-gray-600 mt-2">
+            A full-stack project for creating, editing, and searching markdown texts. Initially designed to run locally, reading and saving texts as .md files on the computer.
+          </p>
+          <p class="text-sm text-gray-500 mt-4">Technologies: Python, SQLite, FastAPI, HTMX</p>
+            <a href="https://github.com/bhunao/notes" target="_blank" 
+                class="inline-block bg-gray-800 hover:bg-gray-700 text-white font-medium py-2 px-4 rounded mt-4 shadow transition duration-200">
+                View Project on GitHub
+            </a>
+        </div>
+        <!-- Covid-19 in Brazil -->
+        <div class="bg-gray-100 p-6 rounded-lg shadow">
+          <h3 class="font-bold text-lg">Covid-19 in Brazil</h3>
+          <p class="text-gray-600 mt-2">
+            A pet project focusing on Covid-19 worldwide and in Brazil, where I contributed by creating a model for predicting Covid-19 cases and deaths.
+          </p>
+          <p class="text-sm text-gray-500 mt-4">Technologies: Python, Tableau, Machine Learning</p>
+            <a href="https://public.tableau.com/app/profile/marcelo.has/viz/Covid-19Brasil2_0/Covid-19noBrasil-Situacao" target="_blank" 
+                class="inline-block bg-gray-800 hover:bg-gray-700 text-white font-medium py-2 px-4 rounded mt-4 shadow transition duration-200">
+                View Project on Tableau
+            </a>
+        </div>
+        <!-- MiniSpace -->
+        <div class="bg-gray-100 p-6 rounded-lg shadow">
+          <h3 class="font-bold text-lg">MiniSpace</h3>
+          <p class="text-gray-600 mt-2">
+            Retro space game made using Pyxel, a retro gaming console with only 16 colors, using ECS to manage game processes.
+          </p>
+          <p class="text-sm text-gray-500 mt-4">Technologies: Python, Pyxel, ECS</p>
+            <a href="https://github.com/bhunao/minispace_pyxel" target="_blank" 
+                class="inline-block bg-gray-800 hover:bg-gray-700 text-white font-medium py-2 px-4 rounded mt-4 shadow transition duration-200">
+                View Project on GitHub
+            </a>
+        </div>
+        <!-- Evolution Simulation -->
+        <div class="bg-gray-100 p-6 rounded-lg shadow">
+          <h3 class="font-bold text-lg">Evolution Simulation</h3>
+          <p class="text-gray-600 mt-2">
+            Simulating evolution using neural networks with Python, Pygame, and Neat-Python, demonstrating changes in behavior within an ecosystem.
+          </p>
+          <p class="text-sm text-gray-500 mt-4">Technologies: Python, NEAT, Pygame</p>
+            <a href="https://github.com/bhunao/pygame_evolution_simulation" target="_blank" 
+                class="inline-block bg-gray-800 hover:bg-gray-700 text-white font-medium py-2 px-4 rounded mt-4 shadow transition duration-200">
+                View Project on GitHub
+            </a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-            <div class="container p-4">
-                <div class="container text-center pb-3">
-                    <button class="btn btn-light border rounded-0">
-                        <a href="https://github.com/bhunao/">
-                            <i class="bi bi-github"></i>
-                            GitHub
-                        </a>
-                    </button>
-                    <button class="btn btn-light border rounded-0">
-                        <a href="https://www.linkedin.com/in/bhunao/">
-                            <i class="bi bi-linkedin"></i>
-                            LinkedIn
-                        </a>
-                    </button>
-                </div>
-            </div>
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="container mx-auto px-4 text-center">
+      <p>&copy; 2024 Bruno Henrique Félix. All rights reserved.</p>
+    </div>
+  </footer>
 
-            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
-                <small>
-                    Made by <strong>me</strong>, <strong>myself</strong> and <strong>I</strong>.
-                </small>
-            </div>
-
-        </footer>
-
-        <script src="./static/bootstrap.bundle.js"></script>
-    </body>
+</body>
 </html>
+
